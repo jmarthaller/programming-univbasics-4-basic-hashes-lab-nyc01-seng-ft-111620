@@ -13,5 +13,6 @@ end
 
 
 def id_hash_generator(number)
-  distinct hash = { :distinct_value => number }
+  distinct = { :distinct_key => number }
+  return distinct
 end
