@@ -13,6 +13,6 @@ end
 
 
 def id_hash_generator(number)
-  distinct = { :od => number }
+  distinct = { :id => number }
   return distinct
 end
